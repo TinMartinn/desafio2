@@ -1,0 +1,28 @@
+function bienvenidx() {
+    alert("HOLA! te vamos a hacer unas preguntas y si no las sabes sos re tonto");
+}
+function sigPregunta() {
+    alert("no sos tan tonto como pensaba, siguiente pregunta");
+}
+bienvenidx();
+
+let debut = prompt("¿En que año debuto NUEST?")
+while (debut != 2012) {
+    alert("RESPUESTA INCORRECTA bobi");
+    debut = prompt("intentelo de nuevo");
+}
+
+sigPregunta();
+
+let pregunta2 = prompt("¿Cuanto mide un perro promedio?")
+if (pregunta2 >= 15 && pregunta2 <= 110) {
+    alert("tan virgo vas a ser para saber eso? jajaja")
+} else {
+    alert("alto boludito como no sabes? jajaja")
+    pregunta2 = prompt("Cuanto mide un perro promedio?")
+}
+
+sigPregunta()
+
+alert("la verdad me cansaste y auque te siga haciendo mas preguntas ya se que sos re bobito")
+

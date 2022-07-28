@@ -16,9 +16,9 @@ sigPregunta();
 
 let pregunta2 = prompt("¿Cuanto mide un perro promedio?")
 if (pregunta2 >= 15 && pregunta2 <= 110) {
-    alert("tan virgo vas a ser para saber eso? jajaja")
+    alert("como vas a saber eso? no tenes vida? ajjajaja")
 } else {
-    alert("alto boludito como no sabes? jajaja")
+    alert("alto tontito como no sabes? jajaja")
     pregunta2 = prompt("Cuanto mide un perro promedio?")
 }
 
